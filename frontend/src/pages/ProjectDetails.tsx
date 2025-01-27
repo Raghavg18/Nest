@@ -9,6 +9,7 @@ import {
   faTag,
   faUsers,
 } from '@fortawesome/free-solid-svg-icons'
+import fs from "fs";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fetchAlgoliaData } from 'api/fetchAlgoliaData'
 import { GET_PROJECT_DATA } from 'api/queries/projectQueries'
